@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Neat</string>
+	<key>ordering</key>
+	<array>
+		<string>CB6C0BE3-2F2C-4146-AE69-E7CE3A9B0C14</string>
+		<string>3160667E-CA31-47B3-B0A6-525940407027</string>
+		<string>4B6C3491-CF65-4A58-A82B-ADF72E3DD1B0</string>
+		<string>CE854BC6-0F52-4211-BB41-B62DC4C45646</string>
+	</array>
+	<key>uuid</key>
+	<string>9562A9C5-3676-419F-BECF-A5DAEC34DE73</string>
+</dict>
+</plist>

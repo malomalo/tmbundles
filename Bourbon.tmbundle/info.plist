@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Bourbon</string>
+	<key>ordering</key>
+	<array>
+		<string>696D477E-18F0-430B-90A2-D41194CE4AAD</string>
+		<string>CCDFF232-0DD7-4326-86E6-8134F8333800</string>
+		<string>5223AFA3-281B-420C-BCCE-06223C22B3DC</string>
+		<string>80A9EE03-1CD9-44D4-934F-D8B505C4835A</string>
+		<string>EF4A207E-13A8-42A8-B3A4-85B175CC89A6</string>
+		<string>D7D8A0A2-AA81-4D81-8C19-73D8B8EC65FD</string>
+	</array>
+	<key>uuid</key>
+	<string>C9708A34-6D9E-4378-B4A2-0D27DA34C896</string>
+</dict>
+</plist>
