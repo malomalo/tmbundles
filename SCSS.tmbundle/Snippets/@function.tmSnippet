@@ -3,14 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>background:${1:${2:transparent} image-url('${3:image.png}') ${4:left} ${5:top} ${6:no-repeat}};</string>
+	<string>// 
+// @TODO: Add docs to $2!
+//
+@function ${2:function-name}(\$${1:n}) {
+	@return \$${1:n} $0;
+}</string>
 	<key>name</key>
-	<string>Background</string>
+	<string>@function</string>
 	<key>scope</key>
 	<string>source.scss</string>
 	<key>tabTrigger</key>
-	<string>background</string>
+	<string>function</string>
 	<key>uuid</key>
-	<string>0D6354D0-B50E-47A8-9F42-C9B452660340</string>
+	<string>30892348-4559-49B9-BE5F-9C2C0A04ACC5</string>
 </dict>
 </plist>

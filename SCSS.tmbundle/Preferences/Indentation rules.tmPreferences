@@ -2,15 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>content</key>
-	<string>background:${1:${2:transparent} image-url('${3:image.png}') ${4:left} ${5:top} ${6:no-repeat}};</string>
 	<key>name</key>
-	<string>Background</string>
+	<string>Indentation Rules</string>
 	<key>scope</key>
 	<string>source.scss</string>
-	<key>tabTrigger</key>
-	<string>background</string>
+	<key>settings</key>
+	<dict>
+		<key>decreaseIndentPattern</key>
+		<string>^\s*\}</string>
+		<key>increaseIndentPattern</key>
+		<string>(^.*\{[^}]*$)</string>
+	</dict>
 	<key>uuid</key>
-	<string>0D6354D0-B50E-47A8-9F42-C9B452660340</string>
+	<string>2E4DDA47-1FC3-4FF7-A719-49ED6FA8ECFF</string>
 </dict>
 </plist>
