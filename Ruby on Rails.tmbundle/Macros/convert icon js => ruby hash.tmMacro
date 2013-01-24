@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>replaceAll</string>
+				<key>findString</key>
+				<string>'icon-</string>
+				<key>ignoreCase</key>
+				<false/>
+				<key>replaceAllScope</key>
+				<string>document</string>
+				<key>replaceString</key>
+				<string>:</string>
+				<key>wrapAround</key>
+				<true/>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>replaceAll</string>
+				<key>findString</key>
+				<string>' : '&amp;#x</string>
+				<key>ignoreCase</key>
+				<false/>
+				<key>replaceAllScope</key>
+				<string>document</string>
+				<key>replaceString</key>
+				<string> =&gt; '</string>
+				<key>wrapAround</key>
+				<true/>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>replaceAll</string>
+				<key>findString</key>
+				<string>;',</string>
+				<key>ignoreCase</key>
+				<false/>
+				<key>replaceAllScope</key>
+				<string>document</string>
+				<key>replaceString</key>
+				<string>',</string>
+				<key>wrapAround</key>
+				<true/>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>replaceAll</string>
+				<key>findString</key>
+				<string>;'</string>
+				<key>ignoreCase</key>
+				<false/>
+				<key>replaceAllScope</key>
+				<string>document</string>
+				<key>replaceString</key>
+				<string>'</string>
+				<key>wrapAround</key>
+				<true/>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
+		</dict>
+	</array>
+	<key>name</key>
+	<string>convert icon js =&gt; ruby hash</string>
+	<key>uuid</key>
+	<string>FEED62C9-88B0-41B2-BB99-C1363023AAE8</string>
+</dict>
+</plist>
