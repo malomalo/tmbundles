@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>lighten(${1:white}, ${2:50});$0</string>
+	<string>lighten(${1:white}, ${2:50})$0</string>
 	<key>name</key>
 	<string>Lighten</string>
 	<key>scope</key>
