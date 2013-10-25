@@ -9,10 +9,12 @@
 			<dict>
 				<key>action</key>
 				<string>replaceAll</string>
+				<key>findInProjectIgnoreCase</key>
+				<false/>
 				<key>findString</key>
 				<string>'icon-</string>
 				<key>ignoreCase</key>
-				<false/>
+				<true/>
 				<key>replaceAllScope</key>
 				<string>document</string>
 				<key>replaceString</key>
@@ -28,10 +30,12 @@
 			<dict>
 				<key>action</key>
 				<string>replaceAll</string>
-				<key>findString</key>
-				<string>' : '&amp;#x</string>
-				<key>ignoreCase</key>
+				<key>findInProjectIgnoreCase</key>
 				<false/>
+				<key>findString</key>
+				<string>' : '</string>
+				<key>ignoreCase</key>
+				<true/>
 				<key>replaceAllScope</key>
 				<string>document</string>
 				<key>replaceString</key>
@@ -47,14 +51,16 @@
 			<dict>
 				<key>action</key>
 				<string>replaceAll</string>
-				<key>findString</key>
-				<string>;',</string>
-				<key>ignoreCase</key>
+				<key>findInProjectIgnoreCase</key>
 				<false/>
+				<key>findString</key>
+				<string>'&amp;#xe</string>
+				<key>ignoreCase</key>
+				<true/>
 				<key>replaceAllScope</key>
 				<string>document</string>
 				<key>replaceString</key>
-				<string>',</string>
+				<string>'e</string>
 				<key>wrapAround</key>
 				<true/>
 			</dict>
@@ -66,10 +72,12 @@
 			<dict>
 				<key>action</key>
 				<string>replaceAll</string>
+				<key>findInProjectIgnoreCase</key>
+				<false/>
 				<key>findString</key>
 				<string>;'</string>
 				<key>ignoreCase</key>
-				<false/>
+				<true/>
 				<key>replaceAllScope</key>
 				<string>document</string>
 				<key>replaceString</key>
@@ -80,10 +88,50 @@
 			<key>command</key>
 			<string>findWithOptions:</string>
 		</dict>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>replaceAll</string>
+				<key>findInProjectIgnoreCase</key>
+				<false/>
+				<key>findString</key>
+				<string>&amp;#x</string>
+				<key>ignoreCase</key>
+				<true/>
+				<key>replaceAllScope</key>
+				<string>document</string>
+				<key>wrapAround</key>
+				<true/>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>replaceAll</string>
+				<key>findInProjectIgnoreCase</key>
+				<false/>
+				<key>findString</key>
+				<string>-</string>
+				<key>ignoreCase</key>
+				<true/>
+				<key>replaceAllScope</key>
+				<string>document</string>
+				<key>replaceString</key>
+				<string>_</string>
+				<key>wrapAround</key>
+				<true/>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
+		</dict>
 	</array>
 	<key>name</key>
-	<string>convert icon js =&gt; ruby hash</string>
+	<string>convert js hash</string>
 	<key>uuid</key>
-	<string>FEED62C9-88B0-41B2-BB99-C1363023AAE8</string>
+	<string>7502C171-051A-4203-A806-915C71F31A0F</string>
 </dict>
 </plist>
