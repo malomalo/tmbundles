@@ -5,7 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>jst</string>
-		<string>esj</string>
+		<string>ejs</string>
 	</array>
 	<key>name</key>
 	<string>JST</string>
