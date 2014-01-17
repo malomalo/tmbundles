@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;% $1 %&gt;$2</string>
+	<string>[[ { ]]$1</string>
 	<key>name</key>
-	<string>erb snippet</string>
+	<string>end</string>
 	<key>scope</key>
-	<string>text.html.erb.rails, text.haml</string>
+	<string>text.html.ejs</string>
 	<key>tabTrigger</key>
-	<string>r</string>
+	<string>}</string>
 	<key>uuid</key>
-	<string>2900DCF9-AF69-4A7E-8CC4-C8103A8AA280</string>
+	<string>173B084F-8778-4E48-A33B-F9DB6BCEC083</string>
 </dict>
 </plist>
