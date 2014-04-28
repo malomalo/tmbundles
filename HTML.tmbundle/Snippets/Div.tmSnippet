@@ -6,8 +6,9 @@
 	<dict>
 		<key>content</key>
 		<string>&lt;div${1: class="${2:name}"}&gt;
-	${0:$TM_SELECTED_TEXT}
-&lt;/div&gt;${}</string>
+	${3:$TM_SELECTED_TEXT}
+&lt;/div&gt;
+$4</string>
 	</dict>
 	<key>isDelta</key>
 	<true/>
