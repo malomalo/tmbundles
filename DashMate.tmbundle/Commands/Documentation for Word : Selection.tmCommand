@@ -4,12 +4,12 @@
 <dict>
 	<key>changed</key>
 	<dict>
-		<key>settings.softWrap</key>
-		<false/>
+		<key>isDisabled</key>
+		<true/>
 	</dict>
 	<key>isDelta</key>
 	<true/>
 	<key>uuid</key>
-	<string>CB39E715-315E-453E-92B3-6F03EF8DAD7F</string>
+	<string>BB3ADBCA-7CAE-46A2-9A21-0D12EF6F7C9D</string>
 </dict>
 </plist>

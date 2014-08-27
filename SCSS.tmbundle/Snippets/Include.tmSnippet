@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@include shift(${1});$0</string>
+	<string>@include ${1:mixin};$2</string>
 	<key>name</key>
-	<string>Shift</string>
+	<string>Include</string>
 	<key>scope</key>
-	<string>source.css, source.scss</string>
+	<string>source.scss</string>
 	<key>tabTrigger</key>
-	<string>shift</string>
+	<string>include</string>
 	<key>uuid</key>
-	<string>1A0FF9F0-C60D-4317-9257-34429259F6C5</string>
+	<string>3DF90DB2-22A4-4EF2-801F-C71FB932E95E</string>
 </dict>
 </plist>

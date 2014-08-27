@@ -2,14 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>changed</key>
-	<dict>
-		<key>settings.softWrap</key>
-		<false/>
-	</dict>
 	<key>isDelta</key>
 	<true/>
 	<key>uuid</key>
-	<string>CB39E715-315E-453E-92B3-6F03EF8DAD7F</string>
+	<string>BCEB5483-E029-479F-95AC-D6AADF98138F</string>
 </dict>
 </plist>

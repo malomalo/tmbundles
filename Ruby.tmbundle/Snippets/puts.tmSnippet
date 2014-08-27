@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@include shift(${1});$0</string>
+	<string>puts ${1:"*"*80}</string>
 	<key>name</key>
-	<string>Shift</string>
+	<string>puts</string>
 	<key>scope</key>
-	<string>source.css, source.scss</string>
+	<string>source.ruby</string>
 	<key>tabTrigger</key>
-	<string>shift</string>
+	<string>puts</string>
 	<key>uuid</key>
-	<string>1A0FF9F0-C60D-4317-9257-34429259F6C5</string>
+	<string>E76588BA-0E7B-4ACC-94CE-E57C71259B99</string>
 </dict>
 </plist>
