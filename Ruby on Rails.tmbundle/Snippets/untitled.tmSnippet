@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;% puts ${1:"*"*80} %&gt;$2</string>
+	<key>name</key>
+	<string>puts</string>
+	<key>scope</key>
+	<string>text.html.erb.rails, text.haml</string>
+	<key>tabTrigger</key>
+	<string>puts</string>
+	<key>uuid</key>
+	<string>72642E2B-5133-406E-9713-4DA3C638B1F2</string>
+</dict>
+</plist>
