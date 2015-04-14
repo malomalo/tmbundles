@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>erb snippet</string>
 	<key>scope</key>
-	<string>text.html.erb.rails, text.haml</string>
+	<string>text.html.erb.rails, text.csv.erb.rails, text.haml</string>
 	<key>tabTrigger</key>
 	<string>r</string>
 	<key>uuid</key>

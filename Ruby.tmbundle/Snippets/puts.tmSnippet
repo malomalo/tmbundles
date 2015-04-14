@@ -3,7 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>puts ${1:"*"*80}</string>
+	<string>puts "*"*80
+puts ${1:"*"*80}
+puts "*"*80$2
+</string>
 	<key>name</key>
 	<string>puts</string>
 	<key>scope</key>

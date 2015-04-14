@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;% puts ${1:"*"*80} %&gt;$2</string>
+	<string>&lt;% puts "*"*80 %&gt;
+&lt;% puts ${1:"*"*80} %&gt;
+&lt;% puts "*"*80 %&gt;$2</string>
 	<key>name</key>
 	<string>puts</string>
 	<key>scope</key>
-	<string>text.html.erb.rails, text.haml</string>
+	<string>text.html.erb.rails, text.csv.erb.rails, text.haml</string>
 	<key>tabTrigger</key>
 	<string>puts</string>
 	<key>uuid</key>
